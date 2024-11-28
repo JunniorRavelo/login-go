@@ -1,0 +1,18 @@
+go-jwt-api/
+│
+├── main.go          # Punto de entrada principal
+├── handlers/        # Controladores para manejar las rutas
+│   ├── auth.go      # Maneja el inicio de sesión y la generación de JWT
+│   ├── user.go      # Ejemplo de ruta protegida
+│
+├── middleware/      # Middleware para verificar JWT
+│   └── jwt.go       # Verificación y validación del JWT
+│
+├── models/          # Modelos de datos
+│   └── user.go      # Estructura de un usuario
+│
+├── utils/           # Utilidades, como generación de JWT
+│   └── jwt.go       # Funciones para generar y validar el JWT
+│
+├── go.mod           # Módulo Go
+└── go.sum           # Dependencias
